@@ -19,6 +19,7 @@ p {
     font-size: 20px;
     transition-duration: 0.4s;
     cursor: pointer;
+    width: 154.208px;
 }
 
 .button1:hover
