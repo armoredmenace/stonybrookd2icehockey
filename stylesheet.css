@@ -9,3 +9,20 @@ p {
     color: black;
     text-indent: 99px;
 }
+
+.button
+{
+    background-color: darkred;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button:hover
+{
+    background-color: white;
+    color: darkred;
+}
