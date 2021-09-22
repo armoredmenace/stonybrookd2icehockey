@@ -10,7 +10,7 @@ p {
     text-indent: 99px;
 }
 
-.button1
+.btn-group .button1
 {
     background-color: darkred;
     color: white;
@@ -22,7 +22,7 @@ p {
     width: 154.208px;
 }
 
-.button1:hover
+.btn-group .button1:hover
 {
     background-color: white;
     color: darkred;
