@@ -10,8 +10,6 @@ p {
     text-indent: 99px;
 }
 
-#stripe{font-size: 0px;}
-
 .btn-group .button1
 {
     background-color: darkred;
@@ -31,7 +29,7 @@ p {
     color: darkred;
 }
 
-#rectangle
+.rectangle
 {
     width:70%;
     height:75%;
