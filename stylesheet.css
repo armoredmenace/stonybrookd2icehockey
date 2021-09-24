@@ -30,3 +30,10 @@ p {
     background-color: white;
     color: darkred;
 }
+
+#rectangle
+{
+    width:70%;
+    height:75%;
+    background-color: white;
+}
