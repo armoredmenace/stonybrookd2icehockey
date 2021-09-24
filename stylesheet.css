@@ -10,6 +10,8 @@ p {
     text-indent: 99px;
 }
 
+#stripe{font-size: 0px;}
+
 .btn-group .button1
 {
     background-color: darkred;
