@@ -14,7 +14,7 @@ p {
 {
     background-color: darkred;
     color: white;
-    border: none;
+    border: rgb(80, 5, 5);
     text-align: center;
     display: inline-block;
     font-size: 20px;
