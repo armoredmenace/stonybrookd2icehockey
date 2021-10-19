@@ -23,6 +23,8 @@ p {
     cursor: pointer;
     float: left;
     width: 16.6%;
+    position:absolute;
+    top: 10%;
 }
 
 .btn-group .button1:hover
