@@ -21,7 +21,7 @@ p {
     transition-duration: 0.4s;
     cursor: pointer;
     float: left;
-    width: 16.67%;
+    width: (device-width)/2;
 }
 
 .btn-group .button1:hover
