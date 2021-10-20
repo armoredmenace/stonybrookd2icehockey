@@ -35,3 +35,13 @@ p {
 {
     left:0px;
 }
+
+.img-grp .jersey
+{
+    src: "white_jersey.png";
+}
+
+.img-grp .jersey:hover
+{
+    src: "red_jersey.png";
+}
