@@ -1,5 +1,5 @@
 document.body.addEventListener('load', () =>{
-    const canvas = document.getElementById("mainCanvas");
+    const canvas = document.body.getElementById("mainCanvas");
     const ctx=canvas.getContext("2d");
 
     //Resizing
