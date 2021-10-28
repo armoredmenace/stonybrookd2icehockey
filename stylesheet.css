@@ -45,15 +45,3 @@ p {
 {
     src: "red_jersey.png";
 }
-
-canvas
-{
-    position: absolute;
-    margin-left: "190px";
-    margin-top: "200px";
-    z-index: "-1";
-    fill: ghostwhite;
-    border: "1px solid";
-    width: "1050px";
-    height: "190px";
-}
