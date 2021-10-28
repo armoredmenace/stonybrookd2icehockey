@@ -38,10 +38,10 @@ p {
 
 .img-grp .jersey
 {
-    src: "white_jersey.png";
+    src: "red_jersey.png";
 }
 
 .img-grp .jersey:hover
 {
-    src: "red_jersey.png";
+    src: "white_jersey.png";
 }
