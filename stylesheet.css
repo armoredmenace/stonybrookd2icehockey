@@ -54,4 +54,6 @@ canvas
     z-index: "-1";
     fill: ghostwhite;
     border: "1px solid";
+    width: "1050px";
+    height: "190px";
 }
