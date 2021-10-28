@@ -1,4 +1,4 @@
-window.onload = main()
+function main()
 {
     var canvas = document.getElementById("mainCanvas");
     var ctx=canvas.getContext("2d");
