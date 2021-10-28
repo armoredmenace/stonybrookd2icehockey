@@ -1,10 +1,9 @@
 window.addEventListener('load', () =>{
-    const canvas = document.querySelector("#canvas");
+    const canvas = document.getElementById("mainCanvas");
     const ctx=canvas.getContext("2d");
 
     //Resizing
     canvas.width=window.innerWidth;
-    canvas.height=1257;
 
     //drawing main canvas for web browser
     ctx.fillStyle = "ffffff";
