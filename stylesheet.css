@@ -55,7 +55,6 @@ p {
 .container
 {
     position: relative;
-    text-align: center;
     color: white;
     font-weight: bolder;
     font-size:45px;
@@ -64,8 +63,8 @@ p {
 .container .centered
 {
     position: absolute;
-    top:0;
-    left:0;
+    text-align:center;
+    top:56.5px;
     color:white;
     /*transform: translate(-50%,-50%);*/
 }
