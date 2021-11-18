@@ -64,8 +64,8 @@ p {
 {
     position: absolute;
     text-align:center;
-    top:56.5px;
-    left:157px;
+    top:50%;
+    left:50%;
     color:white;
     /*transform: translate(-50%,-50%);*/
 }
