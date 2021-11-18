@@ -58,9 +58,10 @@ p {
     text-align: center;
     color: white;
     font-weight: bolder;
+    font-size:45px;
 }
 
-.centered
+.container .centered
 {
     position: absolute;
     top:50%;
