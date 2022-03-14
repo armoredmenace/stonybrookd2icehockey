@@ -1,0 +1,25 @@
+.btn-group button {
+    background-color: #990000; /* Red background */
+    border: 1px solid darkred; /* Red border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+  }
+  
+  .btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+  }
+  
+  /* Clear floats (clearfix hack) */
+  .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Add a background color/change text on hover */
+  .btn-group button:hover {
+    background-color: white;
+    color: #990000;
+  }
