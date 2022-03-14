@@ -10,6 +10,10 @@
   .btn-group button:not(:last-child) {
     border-right: none; /* Prevent double borders */
   }
+
+  .button:first-of-type {
+      left: 365px;
+  }
   
   /* Clear floats (clearfix hack) */
   .btn-group:after {
