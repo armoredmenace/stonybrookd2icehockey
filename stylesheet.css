@@ -11,7 +11,7 @@
     border-right: none; /* Prevent double borders */
   }
 
-  .button:first-of-type {
+  .btn-group button:first-of-type {
       left: 365px;
   }
   
