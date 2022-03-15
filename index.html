@@ -6,21 +6,32 @@
 </head>
 
 <body>
-  <header style="background-color:#990000;">
-    <div class="btn-group">
-      <button class="button1" onclick="document.location='about.html'">ABOUT</button>
-      <button class="button1" onclick="document.location='sponsors.html'" disabled>SPONSORS</button>
-      <button class="button1" onclick="document.location='contact_us.html'" disabled>STORE</button>
-      <button class="button1" onclick="document.location='gallery.html'">RECRUITS</button>
-      <button class="button1" onclick="document.location='news.html'">NEWS</button>
-      <button class="button1" onclick="document.location='team.html'">TEAM</button>
-      <button class="button1" onclick="document.location='schedule.html'">SCHEDULE</button>
-      <button class="button1" onclick="document.location='index.html'">
-        <img src="images/Stony_Brook_Seawolves_white.png" style="position:absolute; top: 0px; left:0px;
-        width: 197.5px; height: 314.5px; border:none;">
-      </button>
-    </div>
-  </header>
+  <div class="topnav" id="myTopnav">
+    <a href="#home" class="active">
+      <img src="images/Stony_Brook_Seawolves_white.png" style="position:absolute; top: 0px; left:0px;
+      width: 197.5px; height: 314.5px; border:none;"></a>
+    <a href="#news">Schedule</a>
+    <a href="#contact">Team</a>
+    <a href="#about">News</a>
+    <a href="#about">Recruits</a>
+    <a href="#about">Store</a>
+    <a href="#about">Sponsors</a>
+    <a href="#about">About</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
   <footer>
     
   </footer>
