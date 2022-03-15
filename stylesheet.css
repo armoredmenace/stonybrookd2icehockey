@@ -1,6 +1,8 @@
 .btn-group button {
     background-color: #990000; /* Red background */
     border: 1px solid darkred; /* Red border */
+    font-size: 16px;
+    font-family:Arial, Helvetica, sans-serif;
     color: white; /* White text */
     padding: 10px 24px; /* Some padding */
     cursor: pointer; /* Pointer/hand icon */
@@ -26,5 +28,5 @@
   }
 
   h1 {
-      margin-left:198px;
+      margin-block-start: 12.375em;
   }
