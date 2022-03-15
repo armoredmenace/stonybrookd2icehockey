@@ -43,13 +43,13 @@ body {
     color: white;
 }
 
-.topnav .icon {
+.topnav a:last-of-type {
     display: none;
 }
   
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
-    .topnav a.icon {
+    .topnav a:last-of-type {
       float: right;
       display: block;
     }
@@ -57,10 +57,9 @@ body {
   
 @media screen and (max-width: 600px) {
     .topnav.responsive {position: relative;}
-    .topnav.responsive .icon {
-      position: absolute;
-      right: 0;
-      top: 0;
+    .topnav.responsive a:last-of-type {
+      float: right;
+      display: block;
     }
     .topnav.responsive a {
       float: none;
