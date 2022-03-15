@@ -60,6 +60,9 @@ footer p{
       float: right;
       display: block;
     }
+    .topnav .dropdown{
+        display: none;
+    }
 }
   
 @media screen and (max-width: 858px) {
@@ -72,6 +75,11 @@ footer p{
       float: none;
       display: block;
       text-align: left;
+    }
+    .topnav.responsive .dropdown {
+        float:none;
+        display: block;
+        text-align: left;
     }
 }
 /* Dropdown Button */
@@ -99,7 +107,7 @@ footer p{
 /* Dropdown Content (Hidden by Default) */
 .topnav .dropdown-content {
     display: none;
-    position: absolute;
+    position: relative;
     background-color: #f1f1f1;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
