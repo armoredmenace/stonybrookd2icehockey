@@ -3,6 +3,7 @@
     border: 1px solid darkred; /* Red border */
     font-size: 16px;
     font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
     color: white; /* White text */
     padding: 10px 24px; /* Some padding */
     cursor: pointer; /* Pointer/hand icon */
