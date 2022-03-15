@@ -8,6 +8,7 @@
     cursor: pointer; /* Pointer/hand icon */
     float: left; /* Float the buttons side by side */
     left: 198px;
+    object-position: 198px 15px;
   }
   
   .btn-group button:not(:last-child) {
@@ -25,8 +26,4 @@
   .btn-group button:hover {
     background-color: white;
     color: #990000;
-  }
-
-  h1 {
-      margin-block-start: 12.375em;
   }
