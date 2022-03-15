@@ -11,8 +11,8 @@
     overflow: hidden;
     background-color: #990000;
 }
-  
-.topnav a {
+
+.topnav a:not(:first-of-type) {
     float: left;
     display: block;
     color: #f2f2f2;
