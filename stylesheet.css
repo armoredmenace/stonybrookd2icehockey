@@ -75,7 +75,7 @@ footer p{
     }
 }
 /* Dropdown Button */
-.topnav button .dropbtn {
+.topnav .dropbtn {
     background-color: #990000;
     float: left;
     display: block;
