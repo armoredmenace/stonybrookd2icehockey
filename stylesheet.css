@@ -13,7 +13,7 @@ footer p{
 
 .navbar {
     overflow: hidden;
-    background-color: #333; 
+    background-color: #990000; 
 }
   
 .navbar a {
@@ -42,14 +42,14 @@ footer p{
 }
   
 .navbar a:hover, .subnav:hover .subnavbtn {
-    background-color: red;
+    background-color: #00274C;
 }
   
 .subnav-content {
     display: none;
     position: absolute;
     left: 0;
-    background-color: red;
+    background-color: #00274C;
     width: 100%;
     z-index: 1;
 }
