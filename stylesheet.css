@@ -16,7 +16,7 @@ footer p{
     background-color: #990000; 
 }
   
-.navbar a {
+.navbar a:not(:last-of-type) {
     float: left;
     font-size: 20px;
     color: white;
