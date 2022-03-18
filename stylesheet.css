@@ -40,17 +40,6 @@ footer p{
     float: left;
     overflow: hidden;
 }
-
-.dropdown .dropbtn_active {
-    font-size: 20px;    
-    border: none;
-    outline: none;
-    color: white;
-    padding: 45.005px 16px;
-    background-color: #00274C;
-    font-family: inherit;
-    margin: 0;
-}
   
 .dropdown .dropbtn {
     font-size: 20px;    
