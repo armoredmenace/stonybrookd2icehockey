@@ -27,11 +27,6 @@ footer p{
     font-size: 20px;
 }
   
-.active {
-    background-color: #00274C;
-    color: white;
-}
-  
 .topnav .icon {
     display: none;
 }
@@ -50,6 +45,11 @@ footer p{
     background-color: inherit;
     font-family: inherit;
     margin: 0;
+}
+
+.active {
+    background-color: #00274C;
+    color: white;
 }
   
 .dropdown-content {
