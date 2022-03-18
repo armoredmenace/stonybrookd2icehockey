@@ -97,7 +97,7 @@ footer p{
 }
   
 @media screen and (max-width: 957px) {
-    .topnav a:not(:first-child), .dropdown .dropbtn {
+    .topnav a:not(:first-child), .dropdown .dropbtn, .dropdown .dropbtn_active {
       display: none;
     }
     .topnav a.icon {
@@ -125,4 +125,9 @@ footer p{
       width: 100%;
       text-align: left;
     }
+    .topnav.responsive .dropdown .dropbtn_active {
+        display: block;
+        width: 100%;
+        text-align: left;
+      }
 }
