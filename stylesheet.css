@@ -26,6 +26,11 @@ footer p{
     text-decoration: none;
     font-size: 20px;
 }
+
+.active {
+    background-color: #00274C;
+    color: white;
+}
   
 .topnav .icon {
     display: none;
@@ -34,6 +39,17 @@ footer p{
 .dropdown {
     float: left;
     overflow: hidden;
+}
+
+.dropdown .dropbtn_active {
+    font-size: 20px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 45.005px 16px;
+    background-color: #00274C;
+    font-family: inherit;
+    margin: 0;
 }
   
 .dropdown .dropbtn {
@@ -45,11 +61,6 @@ footer p{
     background-color: inherit;
     font-family: inherit;
     margin: 0;
-}
-
-.active {
-    background-color: #00274C;
-    color: white;
 }
   
 .dropdown-content {
