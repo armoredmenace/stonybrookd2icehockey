@@ -24,6 +24,10 @@ footer p{
     padding: 45.005px 16px;
     text-decoration: none;
 }
+
+.navbar :last-of-type{
+    display: none;
+}
   
 .subnav {
     float: left;
@@ -72,15 +76,16 @@ footer p{
 }
  
 
-@media screen and (max-width: 1072px) {
+@media screen and (max-width: 858px) {
     .navbar :not(:first-of-type) {display: none;}
+    .subnav {display:none;}
     .navbar a:last-of-type {
       float: right;
       display: block;
     }
 }
   
-@media screen and (max-width: 1072px) {
+@media screen and (max-width: 858px) {
     .navbar.responsive {position: relative;}
     .navbar.responsive a:last-of-type {
       float: right;
