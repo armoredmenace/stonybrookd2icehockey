@@ -9,16 +9,45 @@
 
 <body>
   <div class="topnav" id="myTopnav">
-    <a href="index.html">
-      <img src="images/Stony_Brook_Seawolves_white.png" style="width: 50.56px; height: 80.512px; border:none;"></a>
-    <a href="schedule.html">Current Schedule</a>
-    <a href="team.html">Team</a>
-    <a href="news.html">News</a>
+    <a href="index.html" style="padding: 14px 16px">
+      <img src="images/Stony_Brook_Seawolves_white.png" 
+      style="width: 50.56px; height: 80.512px; border:none;">
+    </a>
+    <a href="schedule.html">Schedule</a>
+    <div class="dropdown">
+      <button class="dropbtn">Team</button>
+      <div class="dropdown-content">
+        <a href="roster.html">2021-2022 Roster</a>
+        <a href="stats.html">2021-2022 Statistics</a>
+        <a href="staff.html">Team Staff</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">News</button>
+      <div class="dropdown-content">
+        <a href="news.html">Team News</a>
+        <a href="https://www.chfhockey.net/">CHF</a>
+        <a href="https://www.stonybrook.edu/">Stony Brook University</a>
+      </div>
+    </div> 
     <a href="recruits.html">Prospective Players</a>
-    <a href="store.html" class="active">Store</a>
-    <a href="sponsors.html">Sponsorship</a>
-    <a href="about.html">About</a>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">☰</a>
+    <a href="store.html" class="active">Team Store</a>
+    <div class="dropdown">
+      <button class="dropbtn">Sponsorships</button>
+      <div class="dropdown-content">
+        <a href="why_sponsor.html">Why Sponsor the Seawolves?</a>
+        <a href="plans.html">Sponsorship Plans</a>
+        <a href="sponsors.html">Our Proud Sponsors</a>
+      </div>
+    </div> 
+    <div class="dropdown">
+      <button class="dropbtn">About</button>
+      <div class="dropdown-content">
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+      </div>
+    </div>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
   </div>
 
   <script>
@@ -30,7 +59,7 @@
         x.className = "topnav";
       }
     }
-    </script>
+  </script>
 
   <footer style="background-color: #990000;">
     <p></p>
