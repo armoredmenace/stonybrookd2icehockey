@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Team-SBU D2 Hockey</title>
+  <title>2021-2022 Roster-SBU D2 Hockey</title>
   <link rel="shortcut icon" href="images/Stony_Brook_Seawolves_white.ico" type="image/x-icon">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://armoredmenace.github.io/stonybrookd2icehockey/stylesheet.css">
@@ -13,17 +13,12 @@
       <img src="images/Stony_Brook_Seawolves_white.png" 
       style="width: 50.56px; height: 80.512px; border:none;"></a>
     </a>
+    <a href="schedule.html">Schedule</a>
     <div class="subnav">
-      <button class="subnavbtn">Schedule</button>
+      <button class="subnavbtn">Team</button>
       <div class="subnav-content">
-        <a href="schedule.html">2021-2022 Season</a>
+        <a href="roster.html">2021-2022 Roster</a>
         <a href="schedule.html">2021-2022 Stats</a>
-      </div>
-    </div> 
-    <div class="subnav">
-      <button class="subnavbtn">The Team</button>
-      <div class="subnav-content">
-        <a href="team.html">2021-2022 Roster</a>
         <a href="#deliver">2021-2022 Team Staff</a>
       </div>
     </div> 
@@ -31,8 +26,8 @@
       <button class="subnavbtn">News</button>
       <div class="subnav-content">
         <a href="news.html">Team News</a>
-        <a href="#link2">CHF</a>
-        <a href="#link3">Stony Brook University</a>
+        <a href="https://www.chfhockey.net/">CHF</a>
+        <a href="https://www.stonybrook.edu/">Stony Brook University</a>
       </div>
     </div>
     <a href="recruits.html">Prospective Players</a>
@@ -48,11 +43,23 @@
     <div class="subnav">
       <button class="subnavbtn">About</button>
       <div class="subnav-content">
-        <a href="news.html">About Us</a>
+        <a href="about.html">About Us</a>
         <a href="#link2">Contacts Us</a>
       </div>
     </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">≡</a>
   </div>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
 
   <footer style="background-color: #990000;">
     <p></p>
