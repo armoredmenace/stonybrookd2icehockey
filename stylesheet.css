@@ -45,7 +45,7 @@ footer p{
     border: none;
     outline: none;
     color: white;
-    padding: 14px 16px;
+    padding: 45.005px 16px;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
@@ -75,8 +75,8 @@ footer p{
 }
   
 .dropdown-content a:hover {
-    background-color: #00274C;
-    color: white;
+    background-color: white;
+    color: #00274C;
 }
   
 .dropdown:hover .dropdown-content {
