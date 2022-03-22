@@ -136,9 +136,9 @@ footer p{
 .tab {
     overflow: hidden;
     border: none;
-    background-color: #00274C;
+    background-color: white;
     color: white;
-    width: 35%;
+    width: 33%;
     margin: auto;
 }
   
