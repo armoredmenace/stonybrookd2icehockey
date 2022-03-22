@@ -62,41 +62,36 @@
   </script>
   
   <br>
-  <div class="tab">
-    <button class="tablinks" onclick="openEvent(event, 'games')">UPCOMING GAMES</button>
-    <button class="tablinks" onclick="openEvent(event, 'results')">RESULTS</button>
-    <button class="tablinks" onclick="openEvent(event, 'standings')">STANDINGS</button>
+  <div id="London" class="tabcontent">
+    <h3>London</h3>
+    <p>London is the capital city of England.</p>
+    <p>Arsenal sucks.</p>
   </div>
   
-  <div id="games" class="tabcontent">
-    <iframe src="https://gamesheet.app/seasons/723/stats/schedule?filter%5Bdivision%5D=4388&filter%5Bquery%5D=Stony%20Brook" 
-     width="500px" height="5700px">
+  <div id="Paris" class="tabcontent">
+    <h3>Paris</h3>
+    <p>Paris is the capital of France.</p> 
   </div>
   
-  <div id="results" class="tabcontent">
-    <iframe src="https://gamesheet.app/seasons/723/stats/scores?filter%5Bdivision%5D=4388&filter%5Bquery%5D=Stony%20Brook" 
-     width="500px" height="5700px">
+  <div id="Tokyo" class="tabcontent">
+    <h3>Tokyo</h3>
+    <p>Tokyo is the capital of Japan.</p>
   </div>
   
-  <div id="standings" class="tabcontent">
-    <iframe src="https://gamesheet.app/seasons/723/stats/standings?filter%5Bdivision%5D=4388" 
-     width="500px" height="1300px">
-  </div>
-
   <script>
-    function openEvent(evt, cityName) {
-      var i, tabcontent, tablinks;
-      tabcontent = document.getElementsByClassName("tabcontent");
-      for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-      }
-      tablinks = document.getElementsByClassName("tablinks");
-      for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
-      }
-      document.getElementById(cityName).style.display = "block";
-      evt.currentTarget.className += " active";
+  function openEvent(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
     }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
   </script>
 
   <footer style="background-color: #990000;border:solid;border-width:16px;border-color:#990000;">
