@@ -144,6 +144,7 @@ footer p{
   
   /* Style the buttons inside the tab */
 .tab button {
+    background-color: #00274C;
     float: left;
     border: none;
     outline: none;
