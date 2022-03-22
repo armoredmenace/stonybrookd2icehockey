@@ -62,27 +62,42 @@
   </script>
   
   <br>
-  <table style="width:95%;">
-    <tr style="font-weight:bold;font-family:Arial, Helvetica, sans-serif;font-size:28px;">
-      <th>UPCOMING GAMES</th>
-      <th>RESULTS</th>
-      <th>CURRENT STANDINGS</th>
-    </tr>
-    <tr>
-      <th valign="top">
-        <iframe src="https://gamesheet.app/seasons/723/stats/schedule?filter%5Bdivision%5D=4388&filter%5Bquery%5D=Stony%20Brook"
-        width="410" height="7100" title="2021-22 SBU Upcoming Games" style="border:none;"></iframe>
-      </th>
-      <th>
-        <iframe src="https://gamesheet.app/seasons/723/stats/scores?filter%5Bdivision%5D=4388&filter%5Bquery%5D=Stony%20Brook"
-        width="410" height="7100" title="2021-22 SBU Results" style="border:none;"></iframe>
-      </th>
-      <th valign="top">
-        <iframe src="https://gamesheet.app/seasons/723/stats/standings?filter%5Bdivision%5D=4388"
-        width="410" height="1250" title="2021-22 CHF Empire Standings" style="border:none;"></iframe>
-      </th>
-    </tr>
-  </table>
+  <div class="tab">
+    <button class="tablinks" onclick="openEvent(event, 'games')">UPCOMING GAMES</button>
+    <button class="tablinks" onclick="openEvent(event, 'results')">RESULTS</button>
+    <button class="tablinks" onclick="openEvent(event, 'standings')">STANDINGS</button>
+  </div>
+  
+  <div id="games" class="tabcontent">
+    <iframe src="https://gamesheet.app/seasons/723/stats/schedule?filter%5Bdivision%5D=4388&filter%5Bquery%5D=Stony%20Brook" 
+     width="500px" height="5700px">
+  </div>
+  
+  <div id="results" class="tabcontent">
+    <iframe src="https://gamesheet.app/seasons/723/stats/scores?filter%5Bdivision%5D=4388&filter%5Bquery%5D=Stony%20Brook" 
+     width="500px" height="5700px">
+  </div>
+  
+  <div id="standings" class="tabcontent">
+    <iframe src="https://gamesheet.app/seasons/723/stats/standings?filter%5Bdivision%5D=4388" 
+     width="500px" height="1300px">
+  </div>
+
+  <script>
+    function openEvent(evt, cityName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(cityName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+  </script>
 
   <footer style="background-color: #990000;border:solid;border-width:16px;border-color:#990000;">
     <table style="width:95%;color:white;" valign="top">
