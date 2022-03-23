@@ -61,6 +61,63 @@
     }
   </script>
 
+  <button class="accordion">
+    <table style="width:95%">
+        <tr>
+            <th>
+              <i src="images/Stony_Brook_Seawolves_white.ico"></i>
+            </th>
+            <th>5</th>
+            <th>Jake Lee</th>
+            <th>Sophomore</th>
+            <th>Defense</th>
+          </tr>
+      </table>
+  </button>
+  <div class="panel">
+    <table style="width:100%;">
+      <tr>
+        <th>Height: #'##"</th>
+        <th>Weight: ### lbs</th>
+      </tr>
+      <tr>
+        <th>Hometown: ____, __</th>
+        <th>Birthday: ##/##/####</th>
+      </tr>
+      <tr>
+        <th>Previous Team: _________</th>
+        <th>Years with Stony Brook D2 Hockey: #</th>
+      </tr>
+    </table>
+  </div>
+
+  <button class="accordion">Section 2</button>
+  <div class="panel">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+
+  <button class="accordion">Section 3</button>
+  <div class="panel">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+
+  <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        } 
+      });
+    }
+  </script>
+
 <footer style="background-color: #990000;border:solid;border-width:16px;border-color:#990000;">
   <table style="width:95%;color:white;" valign="top">
     <tr>
