@@ -192,11 +192,10 @@ footer p{
     color: #444;
     cursor: pointer;
     padding: 18px;
-    width: 96%;
+    width: 100%;
     border: none;
     text-align: left;
     outline: none;
-    margin: auto;
     font-size: 15px;
     transition: 0.4s;
 }
