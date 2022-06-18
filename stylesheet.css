@@ -189,7 +189,7 @@ footer p{
   /* Style the tab content */
 .tabcontent {
     display: none;
-    padding: 6px 12px;
+    padding: 6px 0px;
     border: none;
     border-top: none;
     width: 100%;
