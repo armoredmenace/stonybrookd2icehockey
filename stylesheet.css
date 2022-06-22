@@ -150,6 +150,12 @@ footer p{
     }
 }
 
+@media screen and (max-width: 957px) {
+    .footer .table .img{
+        height: 25%;
+    }
+}
+
 /* Style the tab */
 .tab {
     overflow: hidden;
