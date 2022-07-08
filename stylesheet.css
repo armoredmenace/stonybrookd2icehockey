@@ -255,7 +255,7 @@ footer p{
     color:white;
 }
 
-.thumbnail caption {
+.thumbnail.caption {
     position: absolute;
     top: 50%;
     left: 50%;
