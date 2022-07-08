@@ -248,3 +248,18 @@ footer p{
     overflow: hidden;
     transition: max-height 0.2s ease-out;
 }
+
+.pageimg {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.imgtxt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:4vw;
+    font-weight:bold;
+}
