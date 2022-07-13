@@ -254,3 +254,21 @@ footer p{
     text-align: center;
     color: white;
 }
+
+.feed {
+    width: 100%;
+    clear: both;
+  }
+  
+  .first {
+    width: 33%;
+    height: 780px;
+    padding-right: 0px;
+    float:left;
+  }
+  .second {
+    width: 33%;
+    height: 780px;
+    padding-right: 0px;
+    float: left;
+  }
