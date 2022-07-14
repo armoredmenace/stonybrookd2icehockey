@@ -265,12 +265,12 @@ footer p{
     height: 780px;
     padding-right: 0px;
     padding-left: 0px;
-    float:right;
+    float:left;
   }
   .second {
     width: 33%;
     height: 780px;
     padding-right: 0px;
     padding-left: 0px;
-    float: right;
+    float: left;
   }
