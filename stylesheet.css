@@ -261,18 +261,19 @@ footer p{
   }
   
   .first {
-    width: 25%;
+    width: 50%;
     height: 780px;
     padding-right: 0px;
     padding-left: 0px;
     float:left;
   }
   .second {
-    width: 25%;
+    width: 50%;
     height: 780px;
     padding-right: 0px;
     padding-left: 0px;
     float: left;
+    clear: left;
   }
   
   .third {
