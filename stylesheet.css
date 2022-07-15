@@ -261,14 +261,14 @@ footer p{
   }
   
   .first {
-    width: 50%;
+    width: 38.75%;
     height: 780px;
     padding-right: 0px;
     padding-left: 0px;
     float:left;
   }
   .second {
-    width: 50%;
+    width: 38.75%;
     height: 780px;
     padding-right: 0px;
     padding-left: 0px;
@@ -277,9 +277,10 @@ footer p{
   }
   
   .third {
-      width: 50%;
+      width: 61.25%;
       height: 780px;
       padding-left: 0px;
       padding-right: 0px;
       float: left;
+      background-color: white;
   }
