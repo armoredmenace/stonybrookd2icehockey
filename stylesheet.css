@@ -278,9 +278,9 @@ footer p{
   
   .third {
       width: 61.25%;
-      height: 1560px;
-      padding-left: 0px;
-      padding-right: 0px;
+      height: 1558px;
+      padding: 1px;
+      margin: 1px;
       float: left;
       background-color: white;
   }
