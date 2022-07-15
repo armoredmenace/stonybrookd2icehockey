@@ -274,3 +274,11 @@ footer p{
     padding-left: 0px;
     float: left;
   }
+  
+  .third {
+      width: 50%;
+      height: 780px;
+      padding-left: 0px;
+      padding-right: 0px;
+      float: left;
+  }
