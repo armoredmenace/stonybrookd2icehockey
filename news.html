@@ -90,6 +90,14 @@
     </div>
   </div>
 
+  <script>
+    $( window ).resize(function() {
+      var container_width = $('feed').width();    
+      $('feed').html('<div class="fb-page" data-href="https://www.facebook.com/Stony-Brook-D2-Ice-Hockey-111624451425727/" data-tabs="timeline" data-width=""' + container_width + '" data-height="780" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/Stony-Brook-D2-Ice-Hockey-111624451425727/"><a href="https://www.facebook.com/Stony-Brook-D2-Ice-Hockey-111624451425727/">Stony Brook D2 Ice Hockey</a></blockquote></div></div>');
+      FB.XFBML.parse();    
+    });
+  </script>
+
   <footer style="background-color: #990000;border:solid;border-width:16px;border-color:#990000;">
     <table style="width:95%;color:white;" valign="top">
       <tr>
