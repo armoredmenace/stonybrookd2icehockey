@@ -262,7 +262,7 @@ footer p{
   
   .first {
     width: 38.75%;
-    height: 780px;
+    height: 1560px;
     padding-right: 0px;
     padding-left: 0px;
     float:left;
@@ -273,14 +273,4 @@ footer p{
     padding-right: 0px;
     padding-left: 0px;
     float: left;
-    clear: left;
-  }
-  
-  .third {
-      width: 61.25%;
-      height: 780px;
-      padding: 1px;
-      margin: 1px;
-      float: left;
-      background-color: white;
   }
