@@ -284,7 +284,7 @@ footer p{
 .column {
     float: left;
     width: 50%;
-    padding: 10px;
+    padding: none;
 }
   
 /* Clear floats after the columns */
