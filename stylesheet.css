@@ -300,3 +300,16 @@ footer p{
       width: 100%;
     }
 }
+
+.stafftbl {
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    padding: 5px;
+}
+
+.staffrow {
+    width: 100%;
+    background-color: lightgray;
+    padding: 10px;
+}
